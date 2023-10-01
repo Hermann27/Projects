@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D79BB115-F992-49C0-9941-DD87E95FD0A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DEMANDE_ACHAT.My.MyApplication</StartupObject>
+    <RootNamespace>DEMANDE_ACHAT</RootNamespace>
+    <AssemblyName>DEMANDE ACHAT</AssemblyName>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DEMANDE ACHAT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DEMANDE ACHAT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Objets100Lib, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategorieDemandeur.designer.vb">
+      <DependentUpon>CategorieDemandeur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CategorieDemandeur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategorieDemandeurPossible.designer.vb">
+      <DependentUpon>CategorieDemandeurPossible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CategorieDemandeurPossible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection.vb" />
+    <Compile Include="ContenuSQL.designer.vb">
+      <DependentUpon>ContenuSQL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContenuSQL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreationCircuit.designer.vb">
+      <DependentUpon>CreationCircuit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreationCircuit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EcranDemmarrage.designer.vb">
+      <DependentUpon>EcranDemmarrage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EcranDemmarrage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtapeInitial.designer.vb">
+      <DependentUpon>EtapeInitial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EtapeInitial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtapeRejet.designer.vb">
+      <DependentUpon>EtapeRejet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EtapeRejet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EtapeValidation.designer.vb">
+      <DependentUpon>EtapeValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EtapeValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCaissier.designer.vb">
+      <DependentUpon>FrmCaissier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCaissier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChargement.designer.vb">
+      <DependentUpon>frmChargement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChargement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIndex.designer.vb">
+      <DependentUpon>frmIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegleValidation.designer.vb">
+      <DependentUpon>FrmRegleValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegleValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionServeurSmtp.designer.vb">
+      <DependentUpon>GestionServeurSmtp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionServeurSmtp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListesCaissiers.designer.vb">
+      <DependentUpon>ListesCaissiers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListesCaissiers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListesCatDemandeurs.designer.vb">
+      <DependentUpon>ListesCatDemandeurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListesCatDemandeurs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListesCircuit.designer.vb">
+      <DependentUpon>ListesCircuit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListesCircuit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListesEtapes.designer.vb">
+      <DependentUpon>ListesEtapes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListesEtapes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListesEtarejet.designer.vb">
+      <DependentUpon>ListesEtarejet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListesEtarejet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NatureValidation.designer.vb">
+      <DependentUpon>NatureValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NatureValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValideurPossible.designer.vb">
+      <DependentUpon>ValideurPossible.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValideurPossible.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CategorieDemandeur.resx">
+      <DependentUpon>CategorieDemandeur.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategorieDemandeurPossible.resx">
+      <DependentUpon>CategorieDemandeurPossible.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContenuSQL.resx">
+      <DependentUpon>ContenuSQL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreationCircuit.resx">
+      <DependentUpon>CreationCircuit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EcranDemmarrage.resx">
+      <DependentUpon>EcranDemmarrage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtapeInitial.resx">
+      <DependentUpon>EtapeInitial.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtapeRejet.resx">
+      <DependentUpon>EtapeRejet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EtapeValidation.resx">
+      <DependentUpon>EtapeValidation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCaissier.resx">
+      <DependentUpon>FrmCaissier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChargement.resx">
+      <DependentUpon>frmChargement.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIndex.resx">
+      <DependentUpon>frmIndex.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegleValidation.resx">
+      <DependentUpon>FrmRegleValidation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionServeurSmtp.resx">
+      <DependentUpon>GestionServeurSmtp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListesCaissiers.resx">
+      <DependentUpon>ListesCaissiers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListesCatDemandeurs.resx">
+      <DependentUpon>ListesCatDemandeurs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListesCircuit.resx">
+      <DependentUpon>ListesCircuit.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListesEtapes.resx">
+      <DependentUpon>ListesEtapes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListesEtarejet.resx">
+      <DependentUpon>ListesEtarejet.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NatureValidation.resx">
+      <DependentUpon>NatureValidation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValideurPossible.resx">
+      <DependentUpon>ValideurPossible.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19486.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\billetage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btAjouter22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btAjouter32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btAjouter221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btApercu22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btApercu32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btEnregistrer22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btEnregistrer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btFermer22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btFermer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btFiltre22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btFiltre32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btFlecheBas32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btFlecheHaut32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btImprimer22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btImprimer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btInfo32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btModifier22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btModifier32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_valider.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btRepertoireA22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btRepertoireA32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btRepertoireB22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btRepertoireB32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btRetour22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btRetour32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btSupprimer22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btSupprimer32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Configuration.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_bleu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e-mail-enveloppe-icone-9553-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExEtranger_frm.BackgroundImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fichiers ini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icone_imprimer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image2.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image7.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_waza.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loupe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoVehicule.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Papier peint Waza.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sortie.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\votre_solution_sage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\votre_solution_sage copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WazaSolutions.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_161.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foldeopen_16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btAjouter222.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

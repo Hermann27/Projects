@@ -1,0 +1,30 @@
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\bin\Debug\DEMANDE ACHAT.exe
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\bin\Debug\DEMANDE ACHAT.pdb
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\bin\Debug\DEMANDE ACHAT.xml
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\ResolveAssemblyReference.cache
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.CategorieDemandeur.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.CategorieDemandeurPossible.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ContenuSQL.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.CreationCircuit.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.EcranDemmarrage.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.EtapeInitial.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.EtapeRejet.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.EtapeValidation.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.FrmCaissier.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.frmChargement.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.frmIndex.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.FrmRegleValidation.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.GestionServeurSmtp.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ListesCaissiers.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ListesCatDemandeurs.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ListesCircuit.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ListesEtapes.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ListesEtarejet.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.login.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.Resources.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.NatureValidation.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE_ACHAT.ValideurPossible.resources
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE ACHAT.vbproj.GenerateResource.Cache
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE ACHAT.exe
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE ACHAT.xml
+D:\Mes Projets\DEMANDE ACHAT\Backup\DEMANDE ACHAT\obj\Debug\DEMANDE ACHAT.pdb
